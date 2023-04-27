@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.app {
+  padding: 30px;
+  background-color: floralwhite;
+}
+
+.todoAppContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  justify-content: space-around;
+  background: #d17f56;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  justify-content: space-between;
+  /* padding: 10px; */
+}
+
+.todoForm {
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  /* justify-content: left; */
+  align-items: center;
+  margin: 10px;
+}
+
+.todoForm button {
+  margin-top: 10px;
+}
