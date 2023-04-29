@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pyogi37/todo-list-react/static/css/main.5c7b23f4.css",
+    "main.js": "/pyogi37/todo-list-react/static/js/main.2b8cce80.js",
+    "index.html": "/pyogi37/todo-list-react/index.html",
+    "main.5c7b23f4.css.map": "/pyogi37/todo-list-react/static/css/main.5c7b23f4.css.map",
+    "main.2b8cce80.js.map": "/pyogi37/todo-list-react/static/js/main.2b8cce80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c7b23f4.css",
+    "static/js/main.2b8cce80.js"
+  ]
+}
