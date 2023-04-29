@@ -10,10 +10,10 @@ import { useEffect, useState } from "react";
 function App() {
   const [tasks, setTasks] = useState([]);
 
-  const url = "https://jsonplaceholder.typicode.com/todos?userId=1";
+  const fetchTasksUrl = "https://jsonplaceholder.typicode.com/todos?userId=1";
 
   useEffect(() => {
-    fetch(url)
+    fetch(fetchTasksUrl)
       .then((response) => response.json())
       .then((json) => setTasks(json))
       .then(() => console.log(tasks));
@@ -87,10 +87,13 @@ function App() {
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand> myTodo(s)</Navbar.Brand>
       </Navbar>
-      <div className="todoAppContainer">
-        <TaskForm addTodo={addTodo} />
 
-        <div className="todoContainer">
+      <div className="todoAppContainer">
+        <div className="taskForm">
+          <TaskForm addTodo={addTodo} />
+        </div>
+
+        <div className="todoList">
           {tasks.map((task, id) => (
             <Card key={id}>
               <Card.Body>
